@@ -1,0 +1,185 @@
+CSS:CASCADING STYLE SHEET 
+CASCADING: SET of Rules applied to an HTMl ELEMENTS 
+            RULES:ALignment,colors sizes ,animations etc ..
+
+CURRENT VERSION OF CSS 
+        CSS3
+
+CSS3 FEATURES:
+1.Flex&Grid system 
+    flex: used for develeping 1D layout 
+    Grid : used for  develeping 2D layout 
+2.It supports animations 
+3.it supports transitions and transformations 
+4.it supports Media Queries (RWD:responsive  web design)
+5.counters ,containers variables etc..
+6.PseudoClass and PseudoELement selectors  etc...
+7.enhanced Background Properties like Backdrop-filter filter Background-image etc..
+8.lineargradients conical gradient radial gradients ,box-shadow etc..
+
+TERMINNOLOGIES 
+<p id="id1">content</p> : Element selector /tag selector
+id:id selectors 
+
+
+selector:CSS selectors are patterns used in CSS to "select" or target specific HTML elements on a web page,
+
+Different Types of selector
+1.simple_selector
+ tag/element ,id, class,group selector universal selector
+
+ iqueness: id is unique per page; class can be reused multiple times.
+Specificity: id has higher specificity than class.
+Purpose: id for unique element targeting; class for reusable styles across multiple elements.
+2.combinator selector :
+      child selector (>)
+      descendent selector ( )
+      general sibiling selector (~ )
+      Adjacent sibiling selector (+ )
+3.PseudoClass 
+         nth-child first-child required readonly checked first-type-of not or where etc..
+4.PseudoELement 
+       selection first-line first-letter ,marker Placeholder etc ...
+5.Attribute selector 
+       
+Different ways To Include CSS to an Html 
+1.inline css 
+2.internal css
+3.external css 
+
+syntax:
+ property:value; 
+ color:red;Background:orange;
+
+Comments :
+/* comment here */
+
+
+Box_model: it describes about the design and layout of the webpages like demisions space alignment etc 
+
+Box_model consits :
+ content  : h1-h6 p ,text audio,images videos etc...
+ padding: is the space around the Content 
+      padding-left : px rem(root element:16px) ,percentage em 
+      padding-right :px rem(root element:16px) ,percentage em 
+      padding-top:px rem(root element:16px) ,percentage em 
+      padding-bottom :px rem(root element:16px) ,percentage em 
+ border : a thin or thick line around the padding 
+     border-style
+     border-width
+     border-color
+  margin : it is the space around the border 
+
+
+
+  Types of colors 
+  1.Default colors : red green orange blue white etc..
+  2.rgb & rgba  : red(0-255) green(0-255) blue(0-255) a: alpha(0-1)
+  3.hexa dexcimal colors  : #0-9a-f   #9f3a4b #fff #000
+  4.hsl and hsla (hue(0-360deg) saturation(0-100%) lightness(0-100%) alpha(0-1))
+  5.lineargradients and conical gradient and radial gradient :
+    can be applied only to Background-image/Background property its doesnt work on Background-color property
+    
+
+Types of Poisition Properties 
+1.Poisition:static (Default)
+2.Poisition:relative : 
+      It moves the element relative to its ancestors(root element ) if no element is present in the Documnet 
+      if any element exists in the Documnet it moves from The previous element itself
+3.Poisition:absolute 
+ it always moves from root of the documnet until its parent is assigned with position absolute or relative
+4.Poisition:fixed
+5.Poisition:sticky 
+
+To move the Element 
+top 
+bottom
+left
+right 
+
+
+
+Flex : It is Used for developing 1D layouts (either in Row or column)
+
+Flex_Parent Properties
+ display:flex 
+    1.flex-direction :row | row-reverse |column | column-reverse
+Flex_Child_properties
+
+ <i class="bi bi-laptop"></i>
+            <p class="card-title">computer science</p>
+            <p class="card-text">24 courses</p>
+
+Animations 
+can move both forward backward and alternative directions
+can have intermediate steps 
+animations will without hover PseudoClass 
+animations infinte no times
+
+Properties 
+1.animation-name :
+2.animation-duration
+3.animation-delay
+4.animation-timing-function 
+5.animation-itteraction-count 
+6animation-direction 
+7.animation-fill-mode 
+
+
+
+Parent Properties :
+display:grid (Default)
+grid-template-columns:100px 200px 300px
+grid-template-rows:100px 200px 300px 
+justify-items:
+align-items:
+place-items:(shorthand)
+
+
+justify-content:
+align-content:
+place-content:shorthand
+grid-template-areas 
+
+  column-gap:1px  ;
+      row-gap: 3px;
+      gap: 10px;
+
+
+child_properties
+grid-column-start
+grid-column-end
+grid-column
+grid-row-start
+grid-row-end
+grid-row
+grid-area
+justify-self
+align-self
+place-self
+
+
+Mobile first, responsive design is the goal.
+Rwd : responsive web Design 
+
+BrakePoints:Breakpoints are the building blocks of responsive design
+Extra small xs        <576px
+small screen :sm mobiles ≥576px 
+medium screen:md tabs mobiles  	≥768px
+large screen:lg tabs  laptops  ≥992px
+extra-large-screen :xl laptops,tv etc 	≥1200px
+extra-large-screen:xxl tv projectors monitors etc .. ≥1400px
+
+
+min-width : start point 
+max-width : endpoint
+
+syntax of media Queries 
+@media all and (min-width:100px) and (max-width:56px){
+    body{
+
+    }
+    div{
+        
+    }
+}

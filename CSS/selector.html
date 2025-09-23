@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <!-- internal css -->
+    <style> 
+    /* universal selector */
+    *{
+        padding: 0;
+        margin: 0;
+        font-family: 'Times New Roman', Times, serif;
+    }
+        /* id selector : #idvalue{} */
+        #id1{
+            color:chartreuse;
+        }
+        /* class selector */
+        .c1{
+            color: red;
+        }
+        .card{
+            background-color: black;
+        }
+        .card-title{
+            background-color: orange;
+        }
+        #imp{
+            background:red ;
+        }
+        .imp1{
+            background: orange;
+        }
+        /* type selector/tag/element */
+        span{
+          background: red;
+        }
+        h1{
+            background-color: aquamarine;
+        }
+
+        /* group selector */
+        #id4,h3,.c4,b{
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <!-- selectors -->
+     <!-- simple selector: id class tag/element(type selector) universal selector -->
+     <!-- Defines a unique identifier (ID) which must be unique in the whole document -->
+      <!-- navbar footer aside main card-layout -->
+     <p id="id1">id selector-3</p>
+     <p id="id1">id selector-1</p>
+     <!-- class selector -->
+      <p class="c1 card">class selector</p>
+      <p class="c1 card">class selector</p>
+      <p class="c1 card-title">class selector</p>
+      <p class="c1 card">class selector</p>
+
+      <div class="card"><!-- parent tag-->
+          <img src="" alt="" class="card-img-top">
+          <h3 class="card-title"></h3>
+          <p class="card-text">
+            <span class="card-text_title"></span>
+          </p>
+      </div>
+
+      <span>Hello</span>
+      <h1>Hello</h1>
+
+      <p id="imp" class="imp1"> speficity</p>
+
+
+      <!-- group selector -->
+       <p id="id4">Group</p>
+       <h3>group</h3>
+       <b>group</b>
+       <h2 class="c4">Group</h2>
+
+
+
+</body>
+</html>

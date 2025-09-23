@@ -1,0 +1,20 @@
+body{
+    background-color: aqua;
+}
+
+
+@media screen and (min-width:100px) and (max-width:576px) {
+    body{
+    background-color: rgb(217, 255, 0);
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+}
+
+@media screen and (min-width:577px) and (max-width:726px) {
+    body{
+    background-color: rgb(0, 8, 255);
+  
+}
+}

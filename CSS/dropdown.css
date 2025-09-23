@@ -1,0 +1,69 @@
+.dropdown{
+    position: relative;
+}
+
+/* images styles */
+.profile-img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ border: 2px solid red;
+}
+
+.dropDown-menu-link{
+    display: block;
+    text-decoration: none;
+    color: orangered;
+    padding: 5px;
+    transition: all .2s linear;
+}
+/* inline :will occupy the content width only and height and width prop are not applicable */
+/* inline-block :will occupy the content width only height and width prop are  applicable and start in same line  */
+/* block :will occupy  full width , height and width prop are  applicable and start in new line  */
+.dropDown-menu-link:hover{
+    color: green;
+}
+
+.dropDown-menu{
+    width: 80px;
+    background-color: aquamarine;
+    border-radius: 2px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    display: none;
+}
+
+.dropdown:hover .dropDown-menu{
+    display: block;
+}
+/* subdropdown */
+.subdropdown{
+    position: relative;
+}
+
+.subdropdown-menu{
+    width: 70px;
+ background-color: pink;
+ position: absolute;
+ left: 70px;
+ top:20px;
+ display: none;
+}
+.subdropdown:hover .subdropdown-menu{
+    display: block;
+}
+.delete-subdropdown{
+    position: relative;
+}
+.delete-subdropdown-menu{
+    background-color: blue;
+    width: 70px;
+    position: absolute;
+    right: -72px;
+    top: 10px;
+    display: none;
+}
+.delete-subdropdown:hover .delete-subdropdown-menu{ 
+    display: block;
+}

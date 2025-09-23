@@ -1,0 +1,214 @@
+OBJECTIVE
+WHAT IS HTML? 
+WHY WE USE HTML
+FEATURES OF HTML 
+WHAT ARE TAGS & ELEMENTS 
+HEADING & PARAGRAPH TAGS 
+
+
+HTML: HYPERTEXT MARKUP LANGUAGE
+
+HYPERTEXT: The text which links two or more webpages (hyperlinks)
+MARKUP: Collection of tags (TAGs: img,p,h1-h6,video ,audios etc..)
+
+USAGE: It is used for Building the skeleton/structure of the webpage or website 
+     
+TYPE OF HTML VERSION  : HTML5
+
+HTML5: HTML 5.3.3
+
+1.it supports the Multimedia (img,videos,audios,iframe etc)
+   iframe: embed tags (webpage in a webpage )
+2.it supports the semantic tags
+ [semantic : which gives the clear meaning to browser and the developer]
+ it increases the seo : search engine optmization
+    eg: header footer aside ,nav,article ,main,section etc ...
+3.it supports the Entities 
+       Entities : special symbols or characters   (like emojis(&#128519;),copywrights ,etc..)
+4.it supports svgs 
+          svg: scalable vector graphics  
+          dosnt loose the pic quality even when resized and increase the seo and svg can be searched and indexed
+          eg: (bar charts pie charts ,icons,all geometricall shapes)
+          100*100--expanding--500*500-blur and loose pic quality
+5.it supports the canvas tag
+6.it supports the webapis (fetch,settimeout,setintervals,geolocation etc)
+7 it supports the multilanguage and crossplatform application 
+8.Form enhancements : date time year month file image date-time date-time-local url search  etc..
+
+
+DOCTYPE HTML5: it represents the current vesrion of html 
+
+
+🎀Tags: represents what type of content we present the browser 
+eg:p img a h1-h6 header footer  
+
+🎀ELEMENT: the tags along with some content inside it  
+eg: <p>learning html</p>
+tag: p  : opening tag:<p> closing tag:</p>
+content:learning html
+element : <p>learning html</p>
+
+✨🎀Container tags : which has both opening and closing tags 
+    eg:p h1-h6 header footer div li form etc
+✨🎀empty tags/void elements : which doesnt have any content inside it 
+   eg: <img src='' alt='' /> <input type='' />
+
+
+comments :  
+it increase readiability , maintainability 
+<!--comment here -->
+
+BLock level :which occupies fullwidth in the browser and always starts in a newline
+
+br: line brake tag which brakes the line 
+hr: horizontal line 
+
+🎀🎗Entities : are special symbols or characters 
+🥍syntax: 
+  characters :   &code; 
+             eg: &nbsp;   -->space 
+                 &copy; copywrights
+
+   emojis  : &#code;
+         eg: &#128512;
+
+
+Day_3
+ATTRIBUTES & different types
+links
+Images As Links 
+inline vs block basics 
+
+
+ATTRIBUTES : which gives additional information to a tag or 
+    🎀syntax: <p id="" class=""></p> 
+    🧨note: attributes must writen inside the start tag 
+   eg: width height src href , alt  ,target ,type,placeholder , etc..
+
+Links 
+ <a href="" target="">click</a>
+ target=""  attribute values 
+         _self (default)(opens in a same page)
+         _blank(opens in a new page)  
+         _parent 
+         _top 
+ href="" 
+  ABSOLUTE URL  : the address that completely found on web 
+     eg: "https://www.amazon.in/"
+  Relative Url : which is found the local machine 
+      eg: "/index.html" -- if no folder or in same folder
+          "./assets/index.html" -if inside the folder 
+
+uses
+navbars
+footer 
+clickable Images
+downloadable files
+callus and email us option etc  
+
+
+Types of list 
+1.undordered list : ul 
+2.ordered list :ol
+3.description list :dl 
+
+Terminologies
+li:list item 
+dt: description term 
+dd: description data 
+
+Attributes of list 
+style 
+style="property:value;property:value;"
+style="width:100px;color:red;"
+Indicates the numbering type:
+         'a' indicates lowercase letters,
+         'A' indicates uppercase letters,
+         'i' indicates lowercase Roman numerals,
+         'I' indicates uppercase Roman numerals,
+         and '1' indicates numbers (default).
+start="2" must be number value
+id  : for style and to identif unquily
+class : for styling etc...
+
+
+usecases 
+product features 
+headers & footers 
+recipes instructions
+raking system 
+
+
+
+Table :
+   rows
+   clos 
+
+usecases
+   1.camparision
+   2.timetables 
+   3.products list 
+   4.weblayouts,form layouts
+   5.cards etc..
+
+Terminologies
+   tr:table Row  (rows)
+   td:table data (column)
+   th: table header (columns)
+   tbody :used for grouping the table data 
+   thead : used for grouping table header
+   tfoot : used for grouping footer content
+   
+ATTRIBUTES : which give additional information to a tag or element  
+            eg: src ,alt height width href etc
+
+Table Attributes:
+ border 
+ width,height 
+ cellpadding:the space around the content 
+ cellspacing: the space around the cells 
+ align : center | right |left --> used for alignment of the content inside the cell 
+ colspan : used for merging 2 or more columms 
+ rowspan : used for merging two or more rows 
+ style : which is used for applying style to the table( applying color ,border,background etc)
+
+
+Table ELEMENTS
+ tr td th tbody thead tfoot 
+ colgrouph : used for  grouping  multiple cols for styling
+ col 
+ legend : to give the title for the table
+
+
+ Entities : are special symbols or characters 
+ syntax: &code;
+         &#code;
+
+
+forms: used for collecting different types of information/data from  the users/client
+
+Types of information 
+ 1.name mobile emailid age Qualification address gender size ,filters,dates,time , files ,url 
+
+Form_elements : which are used for creating the structure of the form layout 
+input 
+button
+lable 
+fieldset
+legend 
+select 
+option 
+optgrough
+textarea 
+datalist 
+
+Attributes : whic gives additional information to a tag or elment 
+Form_attributes /form_controls 
+type="email" type="password" placeholder, id class  value  ,
+selected ,multiple pattern ,min max maxlength ,size action method disabled required readonly 
+
+
+Get Method:
+limitations:2,048 Characters.
+all information is attached in the form key and values pairs to the url so not so secure
+27.0.0.1:5500/form.html?fname=raju&femail=raju%40gmail.com&fmobile=777777&fpassword=12345

@@ -1,0 +1,57 @@
+/* parent properties */
+.categories{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;/*default*/
+    flex-direction: row-reverse;/*reverse direction*/
+    flex-direction: column;/*column direction*/
+    flex-direction: column-reverse;/*column-reverse direction*/
+    flex-direction: row;
+    /* flex-wrap: nowrap; default */
+    /* flex-wrap: wrap;default */
+    /* flex-wrap: wrap-reverse;  */
+    /* flex-flow: row wrap;shorthand prop for fd and fw */
+    /* flex-flow: column wrap;shorthand prop for fd and fw */
+    /* flex-flow: row wrap;shorthand prop for fd and fw */
+    /* justify-content: start;
+    justify-content: end;
+    justify-content: center; */
+    /* justify-content: space-around; /* space-around space-evenly space-betwen */
+    /* align-content: center; start center end space-around space-evenly space-between */
+    /* align-content: space-around;
+    align-content: space-evenly;
+    align-content: space-between;  */
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+     /* align-content: center; */
+
+   
+
+} 
+
+
+
+/* common styles */
+.card{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+ 
+}
+
+/* childProperties */
+.card-1{
+    /* flex-basis:200px ; */
+    /* flex-basis: 100px; */
+    /* width: 200px; */
+    /* max-width: 200px; */
+    /* min-width: 200px; */
+    /* flex-shrink:2 ; */
+    /* flex-grow: 2; */
+    /* flex: 1 1 100; */ /* grow shrink basis */
+align-self:flex-start ; /* start end center baseline */
+    
+
+}

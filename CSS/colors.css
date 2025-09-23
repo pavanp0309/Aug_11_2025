@@ -1,0 +1,35 @@
+p{
+    width: 300px;
+    height: 300px;
+ color: red;
+ background-color: aqua;
+ /* rgb & rgba */
+ background-color: rgb(0,0,0);
+ background-color: rgb(255,255,255);
+ background-color: rgb(255,0,0);
+ background-color: rgb(0,255,0);
+ background-color: rgba(244, 0, 252, 0.9);
+
+ /* Hexa decimal color */
+ background-color:#000000 ;
+ background-color:#000 ;
+ background-color:#ffffff ;
+ background-color:#fff ;
+ background-color:#134a5f ;
+
+ /* hsl colors */
+ background-color: hsl(120deg, 15%, 20%);
+ background-color: hsla(0deg, 63%, 38%, 0.377);
+ /* linear gradient */
+ background-image:linear-gradient(orange,pink,green) ;
+ background:linear-gradient(to right,orange,pink,green) ;
+ background:linear-gradient(to left,orange,pink,green) ;
+ background:linear-gradient(to bottom,orange,pink,green) ;
+ background:linear-gradient(250deg,orange,pink,green) ;
+ background:linear-gradient(100deg,orange 50%,pink 30%,green 50%) ;
+ background:radial-gradient(green 50%,orange 70%);
+ background:conic-gradient(yellow,blue);
+ background: linear-gradient(0deg,rgba(98, 195, 34, 0.86) 0%, rgba(253, 187, 45, 1) 100%);
+ color: rgb(52, 152, 219);
+ color: #9b59b6;
+}

@@ -1,0 +1,49 @@
+
+.parent{
+  display: grid;
+  gap: 2px;
+  height: 100vh;
+  grid-template-columns: repeat(4,auto);
+  grid-template-rows: 100px 200px 100px 100px 100px;
+  grid-template-areas:
+  "a a a a"
+  "b c d d"
+  "b e e f"
+  "b g j k"
+  "b i i i"
+}
+.child{
+    background-color: gold;
+    padding: 2rem;
+}
+
+.child-1{
+    grid-area:a ;
+}
+.child-2{
+     grid-area: b;
+}
+.child-3{
+     grid-area:c ;
+}
+.child-4{
+     grid-area:d ;
+}
+.child-5{
+     grid-area:e ;
+}
+.child-6{
+     grid-area: f;
+}
+.child-7{
+     grid-area: g;
+}
+.child-8{
+     grid-area: j;
+}
+.child-9{
+     grid-area: k;
+}
+.child-10{
+     grid-area: i;
+}

@@ -1,0 +1,90 @@
+
+
+/* parent element style */
+.hero-section{
+    display: flex;
+    height: 400px;
+    background-color: rgb(12, 12, 12);
+    padding: 1.5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+.hero-content{
+    /* border: 2px solid red; */
+    width: 500px;
+}
+.hero-title{
+ font-size: 3rem;
+ font-weight: bolder;
+ color: white;
+}
+.hero-title-text{
+    color: blue;
+}
+.hero-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.hero-des{
+    color: rgba(240, 255, 255, 0.621);
+}
+.cta-btn{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    text-transform: capitalize;
+    transition: all .5s linear;
+}
+.btn-work{
+    background-color: blue;
+}
+.btn-touch{
+    border: 1px solid blue;
+}
+.cta-btn:hover{
+    transform: translateY(-3px);
+}
+
+.hero-image{
+    width: 100%;
+    height: 350px;
+    padding: .56rem;
+    border-radius: 50px;
+}
+.hero-right{
+    position: relative;
+}
+.hero-features{
+    width: 50px;
+    background-color: rgb(230, 36, 191);
+    padding: .3rem;
+    border-radius: 10px;
+    position: absolute;
+    animation: features 3s infinite linear;
+}
+.design{
+ top: 100px;
+ left: -10px;
+}
+.code{
+    bottom: 100px;
+    right:0px
+}
+.ideas{
+    top:5px;
+    right:0px
+}
+
+@keyframes features {
+    from{
+      transform: translateY(-10px);
+    }to{
+      transform: translateY(10px);
+    }
+}

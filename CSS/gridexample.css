@@ -1,0 +1,34 @@
+
+.parent{
+ display: grid;
+ height: 100vh;
+ gap: 5px;
+ grid-template-columns: 200px auto 200px;
+ grid-template-rows: 100px auto 100px;
+ grid-template-areas:
+  "h h h"
+  "n a ad"
+  "f f f"
+ ;
+}
+
+.child{
+    background-color: gold;
+    padding: 1.2rem;
+}
+
+.header{
+ grid-area: h;
+}
+.nav{
+ grid-area: n;
+}
+.article{
+ grid-area: a;
+}
+.ads{
+ grid-area: ad;
+}
+.footer{
+ grid-area: f;
+}

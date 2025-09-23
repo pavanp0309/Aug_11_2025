@@ -1,0 +1,21 @@
+Day_1
+1.what is website and types of websites?
+2.write difference b/w webpage and website ?
+3.write the difference b/w static and dynamic webpage?
+4.write the difference b/w single and multipage website with examples?
+5.explain the following terminologies 
+          1.http & https 
+          2.url 
+          3.www
+          4.domain
+6.what is html?write is advantages and disadvantages?
+7.write the features of html5?
+8.what is <!DOCTYPE html> ?
+9.write the difference b/w Tag and element with examples?
+10.write the difference b/w container and empty tags with examples?
+
+day_2
+11.what are links in html ? write its usecases 
+12.write the difference b/w ABSOLUTE and Relative url 
+13.what are attributes in html 
+14.explain the example for creating image as link 

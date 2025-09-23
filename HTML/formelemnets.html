@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FormElements</title>
+    </head>
+    <body>
+        <!-- form_elements : input lable button select option optgrough datalist textarea fieldset legend -->
+         <form >
+            <!-- label&input -->
+            <label for="">fullname</label><br>
+             <input type="text"><br>
+
+             <!-- select & option : dropdowns -->
+              <select >
+                <option value="Nokia">Nokia</option>
+                <option value="iphone" selected>Iphone</option>
+                <option value="vivo">vivo</option>
+              </select>
+
+            <!-- multiple option with there category  lable-->
+             <select >
+                <optgroup label="mobile">
+                <option value="Nokia">Nokia</option>
+                <option value="iphone">Iphone</option>
+                <option value="vivo">vivo</option>
+                </optgroup>
+                <optgroup label="laptops">
+                <option value="Hp">Hp</option>
+                <option value="dell">Dell</option>
+                <option value="Macbook" selected>Macbook</option>
+                </optgroup>
+             </select><br>
+
+             <!-- textarea which is used for  reviews comments product description etc... -->
+              <textarea cols="50"  rows="20" style="resize: none;"></textarea>
+
+              <!-- predefined option inside the input: datalist -->
+               <input list="countrycode">
+               <datalist id="countrycode">
+                 <option value="in"></option>
+                 <option value="pak"></option>
+                 <option value="us"></option>
+                 <option value="canada"></option>
+               </datalist>
+
+
+
+
+              
+                
+
+
+               <button type="submit">submit</button>
+               <button type="reset">reset</button>
+               <button type="button">button</button>
+
+             
+
+         </form>
+
+           <form >
+            <!-- personal info  -->
+             <fieldset>
+                <legend>personal Info</legend>
+                 <label for="">fullname</label><br>
+            <input type="text" placeholder="enter ur name"><br>
+            <label for="">email</label><br>
+            <input type="email" placeholder="enter ur name"><br>
+            <label for="">password</label><br>
+            <input type="password" placeholder="enter ur name"><br>
+             </fieldset>
+
+             <!-- comapny details -->
+             <fieldset>
+                <legend>Comapny details</legend>
+                  <label for="">company name</label><br>
+            <input type="text" placeholder="enter ur comapny"><br>
+            <label for="">select the state</label><br>
+            <select name="" id=""><br>
+                <option >TS</option>
+                <option >AP</option>
+                <option >TN</option>
+                <option >KA</option>
+            </select>
+             </fieldset>
+           </form>
+
+
+
+
+
+
+
+
+    </body>
+</html>
