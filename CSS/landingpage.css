@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    place-content: center center;
+    background-color: rgba(13, 235, 231, 0.201);
+    background-blend-mode:saturation;
+    /* element {
+  background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size];
+} */
+    background:red url('./assets/bg.jpg') no-repeat  fixed center cover;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    text-transform: capitalize;
+    text-shadow: 0px 3px 8px orange;
+
+}
+p{
+    color: white;
+    font-size: 2rem;
+}

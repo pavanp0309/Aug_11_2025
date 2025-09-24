@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        h1::first-letter{
+            color: orangered;
+        }
+        h1::first-line{
+            background-color: gold;
+        }
+        ::selection{
+            background-color: aquamarine;
+         }
+         input::placeholder{
+            font-size: .9rem;
+            text-align: center;
+            text-transform: capitalize;
+            color: orangered;
+         }
+        p::before{
+            content: "👋";
+        }
+
+        p::after{
+            content: "👋";
+        }
+        li::marker{
+            content: "🎀";
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Hello  <br>
+         Everyone</h1>
+         <p>WELCOME</p>
+         <p>WELCOME </p>
+         <input type="text" placeholder="enter ur name">
+         <li>item-1</li>
+         <button> Contact us  <i class="bi bi-arrow-right"></i></button>
+         <h3>Hello <span style="text-decoration: underline;color: orangered;background-color: gold;">Everyone</span></h3>
+</body>
+</html>
